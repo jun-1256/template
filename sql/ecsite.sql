@@ -18,7 +18,7 @@ updated_date datetime
 drop table if exists item_info_transaction;
 
 create table item_info_transaction(
-id int not null primany key auto_increment,
+id int not null primary key auto_increment,
 item_name varchar(30),
 item_price int,
 item_stock int,
@@ -39,7 +39,6 @@ insert_date datetime,
 delete_date datetime
 );
 
-INSERT INTO item_info_transaction(item_name,item_price,item_stock)
-VALUES("ノートBook",100,50);
+INSERT INTO item_info_transaction(item_name, item_price, item_stock) VALUES("ノートBook", 100, 50);
 INSERT INTO login_user_transaction(login_id,login_pass,user_name)
 VALUES("internous","internous01","test");
