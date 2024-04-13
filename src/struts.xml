@@ -14,10 +14,20 @@
 		<action name="HomeAction" class="com.diworksdev.template.action.HomeAction" method="execute">
 		<result name="success">login.jsp</result>
 		</action>
+		<!-- LoginAction -->
 		<action name="LoginAction" class="com.diworksdev.template.action.LoginAction" method="execute">
 		<result name="success">buyItem.jsp</result>
 		<result name="error">home.jsp</result>
 		</action>
+		<!-- UserCreateAction -->
+		<action name="UserCreateAction" class="com.diworksdev.template.action.UserCreateAction" method="execute">
+		<result name="success">userCreate.jsp</result>
+		</action>
+		<!-- UserCreateConfirmAction -->
+	   <action name="UserCreateConfirmAction" class="com.diworksdev.template.action.UserCreateConfirmAction" method="execute">
+	   <result name="success">userCreateConfirm.jsp</result>
+	   <result name="error">userCreate.jsp</result>
+	   </action>
 
 	</package>
 </struts>
