@@ -68,7 +68,7 @@
 			<s:if test="errorMessage != ''">
 				<s:property value="errorMessage" escape="false"/>
 			</s:if>
-			<table>
+		<table>
 			<s:form action="UserCreateConfirmAction">
 				<tr>
 					<td>
@@ -96,7 +96,7 @@
 				</tr>
 				<s:submit value="登録"/>
 			</s:form>
-			</table>
+		</table>
 			<div>
 				<span>前画面に戻る場合は</span>
 				<a href='<s:url action="HomeAction"/>'>こちら
